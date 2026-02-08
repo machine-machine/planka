@@ -11,7 +11,7 @@ services:
     #ports:
     #  - 3000:1337
     environment:
-      - BASE_URL=http://kanban.machinemachine.ai
+      - BASE_URL=https://kanban.machinemachine.ai
       - DATABASE_URL=postgresql://postgres@postgres/planka
 
       # Optionally store the database password in secrets:
